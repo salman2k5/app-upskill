@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar ul{
+    text-decoration: none;
+    
+    display: inline ;
+    justify-content: right;
+    padding: 1.5rem 1rem;
+
+    
+}
+.navbar ul A{
+    text-decoration: none;
+  color: white;
+  height: 2rem;
+  font-size: larger;
+  font-family: cursive;
+  
+
+    
+}
+.navbar ul A:hover{
+    text-decoration: none;
+  color: rgb(136, 134, 255);
+    
+}
+.navbar{display: flex;
+justify-content: right;
+padding-right: 2%;
+background: linear-gradient(rgb(47, 0, 255), rgb(0, 0, 0));
+
+
+}
+
+
+.courselib{
+   margin-left: 10%;
+   margin-right: 10%;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 7%;
+    border: 1px solid rgb(109, 109, 109);
+    background-color:rgb(36, 36, 36);
+    padding: 2%;
+    
+}
+.courselib li{
+   text-decoration: none;
+   margin-top: 1%;
+   font-family: cursive;
+    font-size: larger;
+}
+.h{
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color:rgb(68, 18, 248);
+    font-family: cursive;
+}
+.bh{
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color:rgb(68, 18, 248);
+    font-family: cursive;
+}
+.view{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 3rem;
+    
+}
+.view .red{
+    background-color: rgb(255, 96, 96);
+}
+.view .red:hover{
+    background-color: rgb(0, 0, 0);
+}
+.view .blue{
+    background-color: rgb(37, 37, 255);
+}
+.view .blue:hover{
+    background-color: rgb(0, 0, 0);
+}
+.view button{
+    padding: .5rem 1rem; 
+    font-size: 1rem;
+    border-radius: 10px;
+    
+}
+
+.content{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+
+.HTML{
+    list-style: auto;
+    font-family: cursive;
+}
+.CSS{
+    list-style: auto;
+    font-family: cursive;
+}
+.javascript{
+    list-style: auto;
+    font-family: cursive;
+}
+.intjs{
+    list-style: auto;
+    font-family: cursive;
+}
+.footer ul li{
+    text-decoration: none;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+.footer ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    font-weight: 900;
+    background:linear-gradient(rgb(0, 0, 0), rgb(47, 0, 255)); 
+    
+}
+.footer a:hover{
+    color: rgb(0, 20, 107)  ;
+}
+.footer h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(50, 20, 220);
+    font-family: cursive;
+    padding: 2rem;
+}
+.content span h2 a{
+    font-style: italic;
+    color: rgb(75, 44, 255);
+    
+}
+/*  ////////////////////////////// Course page /////////////////////*/
+.bootcamp img{
+    max-width: 500px;
+    height: auto;
+    background:linear-gradient(rgb(0, 0, 0), rgb(47, 0, 255));
+    padding: 3rem 2rem;
+    margin: 0px 4rem;
+}
+.bootcamp{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+.desc{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.syllabus{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+.desc p{
+    font-family: cursive;
+    font-size: larger;
+}
+.syllabus p{
+    font-family: cursive;
+    font-size: larger;
+}
+.syllabus li{
+    font-family: cursive;
+    font-size: larger;
+}
+/*///////////////// Live classes page ////////////////*/
+.bootcamp h3{
+    font-family: cursive;
+}
+.bootcamp li{
+    font-family: cursive;
+    font-size: larger;
+}
+.courselib div p{
+    font-family: cursive;
+    font-size: larger;
+}
+.course li{
+    font-family: cursive;
+    font-size: larger;
+}
+.course h2{
+    font-family: cursive;
+}
+.course h3{
+    font-family: cursive;
+}
+.course p{
+    font-family: cursive;
+    font-size: larger;
+}
+.course span{
+    font-family: cursive;
+    font-size: larger;
+}
+.overh{
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color:rgb(68, 18, 248);
+    font-family: cursive;
+}
+.ov{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: inherit;
+    font-style: oblique;
+}
+.overview{
+    margin-bottom: 3%;
+}
+.hr{
+    width: 100%;
+    height: .5rem;
+    background: linear-gradient(rgb(67, 0, 252), rgb(255, 255, 255));
+    border: none;
+}
+.essentials{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+.left{
+    display: inline;
+    margin: 5rem;
+    max-width: 450px;
+    font-size: 1.4rem;
+}
+.right{
+    max-width: 440px;
+    margin: 5rem 11rem;
+}
+.right button{
+    margin: 0.3rem 0.3rem;
+    
+    font-weight: 900;
+}
+.fundamentals {
+    margin-left: 21%;
+    margin-right: 15%;
+    display: flex;
+}
+.fright{
+    max-width: 440px;
+    margin: 5rem 11rem;
+
+}
+.fright button{
+    margin: 0.3rem 0.3rem;
+   font-weight: bolder;
+    font-size: large;
+}
+.htss{
+    margin-left: 12%;
+    margin-right: 15%;
+    display: flex;
+}
+.algorithm{
+    margin-left: 12%;
+    margin-right: 15%;
+    display: flex;
+}
+.ghb{
+    margin-left: 12%;
+    margin-right: 15%;
+    display: flex;
+}
+.subfooter h1{
+    
+    margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        font-size: 2.2rem;
+        color:rgb(68, 18, 248);
+        font-family: cursive;
+    
+}
+.subfooter{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: cursive;
+    font-size: larger;
+    margin-bottom: 3%;
+}
+.logos{
+    margin: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.fter h1{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;
+    color:rgb(68, 18, 248);
+    font-family: cursive;
+
+}
+.ftrp{
+margin-left: 20%;
+margin-right: 20%;
+margin-bottom: 3%;
+font-size: 1.3rem;
+    font-family: cursive;
+    font-style: italic;
+}
+/* ///////////     About page         ////////////*/
+
+.login{
+   display: grid;
+   justify-content: center;
+   margin-top: 12rem;
+}
+.login h3{
+    text-align: center;
+    margin-top: 2%;
+    
+}
+.login img{
+    margin: 0 6rem;
+    
+    background:rgb(68, 18, 248); 
+    padding: 10px;
+    border-radius: 100%;
+}
+.login input{
+    display: block;
+   
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 1.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.login button:hover{
+    background-color: rgb(31, 0, 141);
+}
+.login button{
+    width: 16rem;
+    height: 4rem;
+    font-size: x-large;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    background-color: rgb(89, 36, 235);
+    border-radius: 10px;
+}
+.login h1{
+    margin: 0 4.5rem;
+}
+.footerlogin ul li{
+    text-decoration: none;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}           
+.footerlogin ul {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  list-style: none;
+  padding: 1rem;
+  font-weight: 900;
+  background:linear-gradient(rgb(0, 0, 0), rgb(47, 0, 255)); 
+  
+}
+.footerlogin a:hover{
+color: rgb(0, 20, 107)  ;
+}
+.footerlogin{
+    margin-top: 23vh;
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+
+}
+.row img{
+    width: 28rem;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.row div{
+    padding:20px;
+    max-width:450px;
+    border: 2px solid rgb(63, 63, 63);
+}
+.row h1{
+    color: #1916da;
+}
+.row h1:hover{
+    color: #1916da;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.row p{
+    font-size: larger;
+    font-family: cursive;
+}
+
+@media only screen and (max-width: 1556px) {
+    .row div{
+        padding:10px;
+        width:350px;
+    }
+    .row img{
+        width: 20rem;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .row {
+        display:grid ;
+        
+    }
+    .row div{
+        padding:20px;
+        width:650px;
+    }
+    .row img{
+        width: 28rem; 
+    }
+}
+@media only screen and (max-width: 490px) {
+    .row div{
+        padding:10px;
+        width:290px;
+        margin-left:2%;
+        margin-right:0%;
+    }
+    .row img{
+        width: 18rem; 
+    }
+    .navbar ul a{
+        font-size: none;
+  font-family: none;
+  
+    }
+    .navbar{
+        padding-left: 10%;
+        
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1056px) {
+
+
+    
+    
+    .content{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .h{
+        font-size: 35px;
+        margin-right: 10%;
+    }
+    .navbar{
+        padding-right: 15%;
+        width: 85%;
+    }
+    .footer h1{
+        font-size: 2rem;
+    }
+    .footer  ul li{
+        font-size: 12px;
+       padding: 5px 5px;
+        
+    }
+    .footerlogin h1{
+        font-size: 2rem;
+    }
+    .footerlogin  ul li{
+        font-size: 12px;
+       padding: 5px 5px;
+        
+    }
+    .bh{
+        font-size: 35px;
+    }
+    
+    
+   
+}
+@media only screen and (max-width: 768px) {
+.bootcamp img{
+   width:200px;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   margin-left: 10%;
+
+ 
+}
+.bootcamp {
+    
+    display: grid;
+    grid-template-columns: min-content;
+    
+}
+.bootcamp div{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.ov{
+    font-size: 16px;
+}
+.essentials h2{
+    font-size: 27px;
+}
+.essentials{
+    margin-left:0;
+    margin-right: 0;
+    display: grid;
+}
+.left{
+    display: block;
+    
+}
+.right{
+    margin: 2% 2%;
+}
+.fundamentals{
+    margin-left:0;
+    margin-right: 0;
+    display: grid;
+}
+.fright{
+    margin: 2% 2%;
+}
+
+.htss{
+    margin-left:0;
+    margin-right: 0;
+    display: grid;
+}
+.algorithm{
+    margin-left:0;
+    margin-right: 0;
+    display: grid;
+}
+.ghb{
+    margin-left:0;
+    margin-right: 0;
+    display: grid;
+}
+.logos{
+    display: grid;
+    margin: 0;
+}
+.logos img{
+    width: 200px;
+    
+}
+.logos img{
+    width: 220px;
+    
+}
+}
+
+
